@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="wrapper">
             <div class="text-input">
+                <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+                <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
                 
             </div>
+            <ul class="controls">
+                <li class="row form">
+                    <div class="icons">
+                        <i id="form" class=""></i>
+                        <i id="" class=""></i>
+                    </div>
+                    <select></select>
+                </li>
+                <li class="exchange"><i class=""></i></li>
+                <li class="row to">
+                    <select></select>
+                    <div class="icons">
+                        <i id="to" class=""></i>
+                        <i id="to" class=""></i>
+                    </div>
+                </li>
+            </ul>
 
             <button>Translate Text</button>
         </div>
     </div>
-    
+    <script src="countries.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
