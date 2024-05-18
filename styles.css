@@ -238,9 +238,10 @@ body{
   }
 
   .controls .row .icons {
-    width: 100%;
+    width: 50%;
     justify-content: space-around;
     padding: 10px 0;
+    overflow: hidden;
   }
 
   .controls .row.from .icons, 
@@ -248,7 +249,11 @@ body{
     padding: 0;
     border: none;
   }
-
+  .controls .row select {
+    width: 50%;
+    max-width: 50;
+    overflow: hidden;
+  }
   .card {
     width: 90%;
     height: auto;
@@ -273,32 +278,3 @@ body{
     font-size: 1.2rem;
   }
 }
-
-/* @media (max-width: 660px){
-  .container{
-    padding: 10px;
-  }
-  .wrapper .text-input{
-    flex-direction: column;
-  }
-  .text-input .to-text{
-    border-left: 0px;
-    border-top: 1px solid #ccc;
-  }
-  .text-input textarea{
-    height: 200px;
-  }
-  .controls .row .icons{
-    display: none;
-  }
-  .container button{
-    padding: 13px;
-    font-size: 16px;
-  }
-  .controls .row select{
-    font-size: 16px;
-  }
-  .controls .exchange{
-    font-size: 14px;
-  }
-} */
