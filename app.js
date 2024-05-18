@@ -94,5 +94,6 @@ document.addEventListener("DOMContentLoaded", function() {
         developerCard.classList.remove("visible");
       }, 5000);
     }, 1000); // 1 second delay before showing the card
-});
+  });
+  
   
