@@ -130,7 +130,8 @@ body{
   background: #3958f9;
 }
 .container button:hover{
-    background-color: yellow;
+  background: linear-gradient(to left, #ca67bb, #e02cc5, #38bbdf, #0635a1);
+
 }
 
 .fa-volume-up{
