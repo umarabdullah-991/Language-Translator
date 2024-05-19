@@ -49,7 +49,7 @@ The Language Converter project is a web application that allows users to transla
 
 ### Credits
 
-This project was developed by [Syed Aman Shah](https://github.com/amanxsyed) and [Umar Abdullah](https://github.com/umarabdullah-991). 
+This project was developed by [Umar Abdullah](https://github.com/umarabdullah-991) and [Syed Aman Shah](https://github.com/amanxsyed). 
 
 ### License
 
@@ -59,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any queries or feedback, please feel free to contact us:
 
-- **Email**: [amanxsyed@gmail.com](mailto:amanxsyed@gmail.com)
+- **Email**: [umarabdullah.work@gmail.com](mailto:umarabdullah.work@gmail.com)
